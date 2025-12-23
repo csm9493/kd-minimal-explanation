@@ -1,0 +1,21 @@
+{
+  "fp16": {
+      "enabled": true,
+      "loss_scale": 1024,
+      "hysteresis": 0,
+      "min_loss_scale": 1024
+  },
+  "zero_optimization": {
+    "stage": 2,
+    "allgather_partitions": true,
+    "allgather_bucket_size": 200000000,
+    "reduce_scatter": true,
+    "reduce_bucket_size": 200000000,
+    "overlap_comm": true,
+    "contiguous_gradients": true
+  },
+  "gradient_clipping": 1.0,
+  "gradient_accumulation_steps": 2,
+  "train_micro_batch_size_per_gpu": 32,
+  "train_batch_size": 256
+}
