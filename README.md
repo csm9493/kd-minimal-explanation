@@ -1,6 +1,6 @@
 # Why Knowledge Distillation Works in Generative Models: A Minimal Working Explanation
 
-[![Paper NeurIPS](https://img.shields.io/badge/Paper-TMLR-b31b1b.svg)](https://neurips.cc/virtual/2025/loc/san-diego/poster/116625) [![arXiv](https://img.shields.io/badge/arXiv-TBD-b31b1b.svg)](https://arxiv.org/abs/2505.13111) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Paper NeurIPS](https://img.shields.io/badge/Paper-NeurIPS-b31b1b.svg)](https://neurips.cc/virtual/2025/loc/san-diego/poster/116625) [![arXiv](https://img.shields.io/badge/arXiv-TBD-b31b1b.svg)](https://arxiv.org/abs/2505.13111) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains the official implementation for the paper: **"Why Knowledge Distillation Works in Generative Models: A Minimal Working Explanation"** (NeurIPS 2025).
 
